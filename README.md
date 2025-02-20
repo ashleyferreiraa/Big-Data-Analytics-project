@@ -1,0 +1,15 @@
+CANADA’S HOUSING MARKET ANALYSIS & PREDICTION
+
+Housing affordability has become an increasingly pressing concern in Canada, with significant implications for future homebuyers, policymakers, and the broader economy. Over the decades, rising housing prices have influenced accessibility to homeownership, shaping the financial futures of individuals and families alike. Understanding housing market trends is essential not only for everyday citizens and prospective homeowners but also for investors and policymakers aiming to create sustainable housing solutions. This project seeks to analyze the evolution of housing price indexes in Canada from 1981 to 2024, offering a comprehensive exploration of historical trends and future implications.
+
+I’ve chosen a time series dataset from the Government of Canada published by Statistics Canada, which collects the new housing price index from 1981 to 2024, with the base period index being 2016 (index = 100) (Government of Canada, 2024). The dataset contains housing index prices for each month of the year across various regions throughout Canada.
+
+Using this dataset, several key questions will be addressed starting with the evolution of housing prices over time and the identification of long-term trends. Anomalies, such as significant price spikes or dips, will be explored, indicating external factors like economic events (e.g., COVID-19, interest rate changes, etc.. ) that may have influenced these fluctuations. A scatter plot, with the yearly average price index plotted against the year, can be used to visually pinpoint anomalies. Furthermore, anomalies can be calculated by applying a rolling window in the time series data, where the mean and standard deviation are used to calculate upper and lower bounds. Any data points that exceed these thresholds will be highlighted in the scatterplot. 
+
+Seasonal trends will also be examined by analyzing how monthly variations impact housing prices throughout the year. To visualize these patterns, a box plot of the average price index grouped by month can be done. 
+
+Similarly, these techniques can be applied to visualize regional comparisons, allowing for an assessment of how housing prices in different areas, particularly major cities like Vancouver and Toronto, compared to the national average.
+
+Lastly, predictive analytics will be applied to forecast future housing prices, offering insights into potential affordability trends for homebuyers. Machine learning models, such as linear regression and random forest, will be employed for their ability to capture linear relationships and complex nonlinear interactions in the data. Time series forecasting models, such as AutoRegressive Integrated Moving Average (ARIMA), will be used to analyze and predict time-dependent trends and seasonality. Model performance will be evaluated using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) to validate accuracy and reliability.
+
+Ultimately, this project provides both historical insights and predictive forecasts to help homebuyers and policymakers understand housing price trends and their impact on affordability. 
