@@ -8,3 +8,31 @@ For my literature review, I am trying to determine the optimal timing for purcha
 My main research question is:
 How do historical trends in key economic factors influence housing prices in Canada, and how can predictive modeling be used to forecast future price fluctuations to determine the best time to buy a home?
 
+Methodology (Content in "Initial Results and Code" file) : 
+
+1.	Data Collection
+-	Data on economic factors explored  (available on the repository in csv files)
+o	GDP
+o	Unemployment rates 
+o	Mortgages Rates 
+-	Target variable:
+o	NHPI  
+
+2.	Data preprocessing 
+-	Check for any missing values: Conduct a thorough examination of each dataset to identify and handle missing values by removing incomplete records.
+-	Select only data for the national average: Filter the datasets to focus solely on national averages for GDP, unemployment, and mortgage rates, ensuring that regional variations do not skew the analysis.
+
+3.	Exploratory Data analysis
+-	Graph how variables correlate with NHPI: Create visualizations such as scatter plots and correlation matrices to illustrate the relationships between the New Housing Price Index (NHPI) and the selected economic factors, identifying any notable trends or patterns.
+  
+4.	Model selection for predictive analysis 
+•	Time Series Analysis:
+o	ARIMA Model:
+•	Advanced Regression Models:
+o	Random Forest
+
+6.	Performance Comparison
+•	Model Comparison: comparing the performance of ARIMAX and random forest predictive accuracy using metrics such as MAE and R squared 
+
+7. Forecasting for outyear
+   Between ARIMAX and Random Forest which ever model has the better performance metric would be used to predict the outyear 
