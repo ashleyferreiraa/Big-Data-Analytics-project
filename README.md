@@ -25,14 +25,12 @@ o	NHPI
 3.	Exploratory Data analysis
 -	Graph how variables correlate with NHPI: Create visualizations such as scatter plots and correlation matrices to illustrate the relationships between the New Housing Price Index (NHPI) and the selected economic factors, identifying any notable trends or patterns.
   
-4.	Model selection for predictive analysis 
-•	Time Series Analysis:
-o	ARIMA Model:
-•	Advanced Regression Models:
-o	Random Forest
+4.	Model selection for predictive analysis
+- ARIMA Model
+- Random Forest
 
 6.	Performance Comparison
-•	Model Comparison: comparing the performance of ARIMAX and random forest predictive accuracy using metrics such as MAE and R squared 
+- Model Comparison: comparing the performance of ARIMAX and random forest predictive accuracy using metrics such as MAE and R squared 
 
-7. Forecasting for outyear
-   Between ARIMAX and Random Forest which ever model has the better performance metric would be used to predict the outyear 
+7. Forecasting:
+- Between ARIMAX and Random Forest which ever model has the better performance metric would be used to predict the outyear 
