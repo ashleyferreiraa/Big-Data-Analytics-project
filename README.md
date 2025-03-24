@@ -11,12 +11,8 @@ How do historical trends in key economic factors influence housing prices in Can
 Methodology (Content in "Initial Results and Code" file) : 
 
 1.	Data Collection
--	Data on economic factors explored  (available on the repository in csv files)
-o	GDP
-o	Unemployment rates 
-o	Mortgages Rates 
--	Target variable:
-o	NHPI  
+-	Data on economic factors explored  (available on the repository in csv files): GDP, Unemployment rates, and	Mortgages Rates 
+-	Target variable: NHPI  
 
 2.	Data preprocessing 
 -	Check for any missing values: Conduct a thorough examination of each dataset to identify and handle missing values by removing incomplete records.
