@@ -7,4 +7,3 @@ This study aims to evaluate which predictive model will be best suited for forec
 To refine my topic, this study will:
 -	Analyze economic factors: Investigate historical NHPI data to identify peaks and dips, and assess how mortgage rates, GDP, and unemployment rates influence housing price trends.
 -	Compare predictive models: Apply and evaluate ARIMAX and Random Forest models to forecast NHPI and assess their performance using accuracy metrics 
-![image](https://github.com/user-attachments/assets/d5f64063-06fb-4109-a935-4ea62d5a5cf0)
